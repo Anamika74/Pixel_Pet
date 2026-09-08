@@ -1,0 +1,38 @@
+{
+  "name": "pixel-pet",
+  "productName": "Pixel Pet",
+  "version": "1.0.0",
+  "description": "A desktop virtual pixel pet",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:dir": "electron-builder --dir",
+    "build:portable": "electron-builder --win portable",
+    "build:installer": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.pixelpet.desktop",
+    "productName": "Pixel Pet",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "artifactName": "PixelPet.exe"
+    },
+    "portable": {
+      "requestExecutionLevel": "user"
+    }
+  }
+}
