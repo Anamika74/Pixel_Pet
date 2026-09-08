@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self';
+            img-src 'self' data:;
+            style-src 'self' 'unsafe-inline';
+            script-src 'self';
+        "
+    >
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Pixel Pet</title>
+
+    <link
+        rel="stylesheet"
+        href="css/pet.css"
+    >
+</head>
+
+<body>
+
+    <div id="pet-container">
+
+        <!-- HUD -->
+        <div id="stats-hud">
+
+            <div class="stat-row">
+
+                <span class="stat-icon">♥</span>
+
+                <div class="stat-bar">
+                    <div
+                        id="happiness-bar"
+                        class="stat-fill happiness"
+                    ></div>
+                </div>
+
+                <span
+                    id="happiness-value"
+                    class="stat-value"
+                >
+                    70
+                </span>
+
+            </div>
+
+
+            <div class="stat-row">
+
+                <span class="stat-icon">⚡</span>
+
+                <div class="stat-bar">
+                    <div
+                        id="energy-bar"
+                        class="stat-fill energy"
+                    ></div>
+                </div>
+
+                <span
+                    id="energy-value"
+                    class="stat-value"
+                >
+                    80
+                </span>
+
+            </div>
+
+        </div>
+        <div id="speech-bubble"></div>
+
+        <!-- PET -->
+
+        <img
+            id="pet"
+            src="../assets/pets/cat/idle/idle.svg"
+            alt="Pixel Pet"
+        >
+
+    </div>
+    <div id="interaction-menu">
+
+    <div class="menu-title">
+        Pixel Pet
+    </div>
+
+    <button data-action="pet">
+        Pet
+    </button>
+
+    <button data-action="feed">
+        Feed
+    </button>
+
+    <button data-action="play">
+        Play
+    </button>
+
+    <button data-action="settings">
+    Settings
+    </button>
+    
+    <div class="menu-divider"></div>
+
+    <button data-action="pause">
+        Pause
+    </button>
+
+    <button data-action="hide">
+        Hide
+    </button>
+
+    <button data-action="pause10">
+        Pause 10 min
+    </button>
+
+    <button data-action="pause30">
+        Pause 30 min
+    </button>
+
+</div>
+    <div id="settings-panel">
+
+    <div class="settings-header">
+        <span>Pixel Pet Settings</span>
+        <button id="close-settings">×</button>
+    </div>
+
+    <div class="settings-section">
+
+        <label class="setting-row">
+            <span>Start with Windows</span>
+            <input
+                type="checkbox"
+                id="setting-startup"
+            >
+        </label>
+
+        <label class="setting-row">
+            <span>Always on top</span>
+            <input
+                type="checkbox"
+                id="setting-always-on-top"
+            >
+        </label>
+
+        <label class="setting-row">
+            <span>Random messages</span>
+            <input
+                type="checkbox"
+                id="setting-random-messages"
+            >
+        </label>
+
+        <label class="setting-row">
+            <span>Break reminders</span>
+            <input
+                type="checkbox"
+                id="setting-break-reminders"
+            >
+        </label>
+
+        <label class="setting-row">
+            <span>Notifications</span>
+            <input
+                type="checkbox"
+                id="setting-notifications"
+            >
+        </label>
+
+        <label class="setting-row">
+            <span>Mood-based behavior</span>
+            <input
+                type="checkbox"
+                id="setting-mood-behavior"
+            >
+        </label>
+
+    </div>
+
+    <button id="reset-settings">
+        Reset Settings
+    </button>
+
+</div>
+
+    <!-- Managers -->
+    <script src="js/settingsManager.js"></script>
+    <script src="js/petAssets.js"></script>
+
+<script src="js/animationManager.js"></script>
+
+<script src="js/movementManager.js"></script>
+
+<script src="js/statsManager.js"></script>
+
+<script src="js/behaviorManager.js"></script>
+
+<script src="js/stateManager.js"></script>
+
+<script src="js/interactionManager.js"></script>
+
+<script src="js/messageManager.js"></script>
+
+<script src="js/breakManager.js"></script>
+
+<script src="js/pet.js"></script>
+
+</body>
+
+</html>
