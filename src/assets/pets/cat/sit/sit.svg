@@ -1,0 +1,338 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="64"
+    height="64"
+    shape-rendering="crispEdges"
+>
+
+    <!-- Shadow -->
+    <rect
+        x="14"
+        y="57"
+        width="36"
+        height="3"
+        fill="#c8b8df"
+    />
+
+    <!-- Tail -->
+    <rect
+        x="47"
+        y="32"
+        width="6"
+        height="20"
+        fill="#392b35"
+    />
+
+    <rect
+        x="50"
+        y="30"
+        width="6"
+        height="10"
+        fill="#d89568"
+    />
+
+    <!-- Sitting body -->
+    <rect
+        x="17"
+        y="34"
+        width="31"
+        height="22"
+        fill="#392b35"
+    />
+
+    <rect
+        x="20"
+        y="36"
+        width="25"
+        height="18"
+        fill="#e7aa7b"
+    />
+
+    <!-- Chest -->
+    <rect
+        x="27"
+        y="38"
+        width="13"
+        height="16"
+        fill="#fff4e8"
+    />
+
+    <!-- Back legs -->
+    <rect
+        x="17"
+        y="48"
+        width="13"
+        height="9"
+        fill="#392b35"
+    />
+
+    <rect
+        x="34"
+        y="48"
+        width="14"
+        height="9"
+        fill="#392b35"
+    />
+
+    <rect
+        x="20"
+        y="50"
+        width="9"
+        height="6"
+        fill="#fff4e8"
+    />
+
+    <rect
+        x="36"
+        y="50"
+        width="10"
+        height="6"
+        fill="#fff4e8"
+    />
+
+    <!-- Head -->
+    <rect
+        x="12"
+        y="10"
+        width="40"
+        height="30"
+        fill="#392b35"
+    />
+
+    <!-- Ears -->
+    <rect
+        x="13"
+        y="5"
+        width="11"
+        height="11"
+        fill="#392b35"
+    />
+
+    <rect
+        x="40"
+        y="5"
+        width="11"
+        height="11"
+        fill="#392b35"
+    />
+
+    <rect
+        x="15"
+        y="7"
+        width="8"
+        height="9"
+        fill="#d89568"
+    />
+
+    <rect
+        x="42"
+        y="7"
+        width="8"
+        height="9"
+        fill="#d89568"
+    />
+
+    <rect
+        x="17"
+        y="8"
+        width="5"
+        height="6"
+        fill="#ff9fb2"
+    />
+
+    <rect
+        x="43"
+        y="8"
+        width="5"
+        height="6"
+        fill="#ff9fb2"
+    />
+
+    <!-- Face -->
+    <rect
+        x="14"
+        y="13"
+        width="36"
+        height="24"
+        fill="#e7aa7b"
+    />
+
+    <rect
+        x="23"
+        y="14"
+        width="18"
+        height="23"
+        fill="#fff4e8"
+    />
+
+    <rect
+        x="19"
+        y="18"
+        width="26"
+        height="18"
+        fill="#fff4e8"
+    />
+
+    <!-- Forehead markings -->
+    <rect
+        x="27"
+        y="14"
+        width="4"
+        height="7"
+        fill="#d89568"
+    />
+
+    <rect
+        x="34"
+        y="14"
+        width="4"
+        height="7"
+        fill="#d89568"
+    />
+
+    <!-- Eyes -->
+    <rect
+        x="20"
+        y="22"
+        width="7"
+        height="8"
+        fill="#392b35"
+    />
+
+    <rect
+        x="37"
+        y="22"
+        width="7"
+        height="8"
+        fill="#392b35"
+    />
+
+    <!-- Eye highlights -->
+    <rect
+        x="21"
+        y="23"
+        width="2"
+        height="2"
+        fill="#ffffff"
+    />
+
+    <rect
+        x="38"
+        y="23"
+        width="2"
+        height="2"
+        fill="#ffffff"
+    />
+
+    <!-- Blush -->
+    <rect
+        x="16"
+        y="30"
+        width="6"
+        height="3"
+        fill="#ffb1b5"
+    />
+
+    <rect
+        x="42"
+        y="30"
+        width="6"
+        height="3"
+        fill="#ffb1b5"
+    />
+
+    <!-- Nose -->
+    <rect
+        x="30"
+        y="29"
+        width="5"
+        height="4"
+        fill="#ff8fa5"
+    />
+
+    <!-- Mouth -->
+    <rect
+        x="29"
+        y="33"
+        width="3"
+        height="2"
+        fill="#392b35"
+    />
+
+    <rect
+        x="33"
+        y="33"
+        width="3"
+        height="2"
+        fill="#392b35"
+    />
+
+    <rect
+        x="31"
+        y="35"
+        width="3"
+        height="2"
+        fill="#392b35"
+    />
+
+    <!-- Whiskers -->
+    <rect
+        x="8"
+        y="28"
+        width="7"
+        height="1"
+        fill="#392b35"
+    />
+
+    <rect
+        x="7"
+        y="32"
+        width="8"
+        height="1"
+        fill="#392b35"
+    />
+
+    <rect
+        x="49"
+        y="28"
+        width="7"
+        height="1"
+        fill="#392b35"
+    />
+
+    <rect
+        x="49"
+        y="32"
+        width="8"
+        height="1"
+        fill="#392b35"
+    />
+
+    <!-- Collar -->
+    <rect
+        x="22"
+        y="38"
+        width="20"
+        height="3"
+        fill="#ef6f91"
+    />
+
+    <!-- Bell -->
+    <rect
+        x="30"
+        y="40"
+        width="5"
+        height="5"
+        fill="#f5c84c"
+    />
+
+    <rect
+        x="31"
+        y="44"
+        width="3"
+        height="2"
+        fill="#d69b26"
+    />
+
+</svg>
